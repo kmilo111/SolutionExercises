@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio1</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script type="text/javascript" src="lab1a.js"></script>
+</head>
+<body ng-app="lab1a">
+	<div ng-controller="lab1aController">
+		<p>Nombre Persona: <span ng-bind="name" style="text-transform:uppercase"></span></p>
+		<p>Cédula de ciudadania: {{id}}</p>
+		<p>Profesion: {{profession}}</p>
+		<p>Salario: {{salary | currency:"$"}}</p>
+		<p>Télefono: {{phone}}</p>
+		<p>Dirección: {{address}}</p>
+		<p>
+		 <label>Ingrese nombre</label> <input type="text" ng-model="name"  />
+		</p>
+	</div>
+</body>
+</html>

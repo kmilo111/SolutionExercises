@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejercicio2</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+	<script type="text/javascript" src="lab1b.js"></script>
+</head>
+<body ng-app="lab1b">
+   <h2>Filtros</h2>
+	<div ng-controller="lab1bController">
+ 	<ul>
+	  <li ng-repeat="filtro in filtros">{{filtro}}</li>	
+	</ul>
+	<h2>Campos</h2>
+		<ul>
+			<li ng-repeat="campo in campos">{{campo}}</li>
+		</ul>
+	</div>
+</body>
+</html>

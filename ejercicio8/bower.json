@@ -1,0 +1,16 @@
+{
+  "name": "angularybower",
+  "description": "gestionar dependencias",
+  "main": "",
+  "authors": [
+    "KMILO INC"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "dependencies": {
+    "angular": "^1.5.8",
+    "gulp": "^3.9.1",
+    "angular-route": "^1.5.8"
+  }
+}
